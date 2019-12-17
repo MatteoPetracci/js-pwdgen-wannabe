@@ -12,4 +12,9 @@ var colore = prompt("Qual è il tuo colore preferito?");
 // console.log(colore);
 // document.getElementById("colore").innerHTML = colore;
 
-document.getElementById('password').innerHTML = nomeUtente + cognomeUtente + colore;
+
+// document.getElementById('password').innerHTML = nomeUtente + cognomeUtente + colore + "19";
+
+var password = nomeUtente + cognomeUtente + colore;
+
+ document.getElementById('password').innerHTML = password + "19";
