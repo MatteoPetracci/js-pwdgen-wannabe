@@ -3,3 +3,82 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.container_password {
+  font-family: arial;
+  background-color: black;
+  color: white;
+  padding: 30px;
+  width: 400px;
+  height: 300px;
+  border-radius: 10px;
+  margin: 20px auto;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+h3 {
+  margin-top: 20px;
+  animation-name: cambia;
+  animation-duration: 2s;
+}
+
+@keyframes cambia {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 0.2;
+  }
+  40% {
+    opacity: 0.4;
+  }
+  60% {
+    opacity: 0.6;
+  }
+  80% {
+    opacity: 0.8;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+#password {
+  text-align: center;
+  margin-top: 20px;
+  animation-name: password;
+  animation-duration: 3s;
+  animation-delay: 2s;
+  visibility: hidden;
+}
+
+@keyframes password {
+  0% {
+    visibility: hidden;
+    opacity: 0;
+  }
+  20% {
+    visibility: hidden;
+    opacity: 0.2;
+  }
+  40% {
+    visibility: visible;
+    opacity: 0.4;
+  }
+  60% {
+    visibility: visible;
+    opacity: 0.6;
+  }
+  80% {
+    visibility: visible;
+    opacity: 0.8;
+  }
+  100% {
+    visibility: visible;
+    opacity: 1;
+  }
+
+}
